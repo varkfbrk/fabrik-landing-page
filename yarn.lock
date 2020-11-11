@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@factor/api@^1.8.29":
-  version "1.8.29"
-  resolved "https://registry.yarnpkg.com/@factor/api/-/api-1.8.29.tgz#47a319b9fe777b6287dfdf6fa6f0ca7dbefcc5e8"
-  integrity sha512-zrDgg0061d13UhPNWBA40BzIZM70TCQKV6urruqQWQpxzji2ytb4eQ5dVCB/wg8v+Qu32o8auBVP1Yqj9KscCw==
+"@factor/api@^1.8.30":
+  version "1.8.30"
+  resolved "https://registry.yarnpkg.com/@factor/api/-/api-1.8.30.tgz#b36e9389cd8bfc6763c77908a7fdd9f4a75ac748"
+  integrity sha512-rhv2ST0gvYjqyi19U24NuOnHv52lbtoKJAO6R6ZgXOSuPABWwzhZCuy52odghsrjp5neMeTyEN0vvC0871wUQg==
   dependencies:
     "@types/detect-node" "^2.0.0"
     "@types/jquery" "^3.3.31"
@@ -140,12 +140,12 @@
     ts-node "^9.0.0"
     yargs "^15.0.2"
 
-"@factor/core@^1.0.0", "@factor/core@^1.8.29":
-  version "1.8.29"
-  resolved "https://registry.yarnpkg.com/@factor/core/-/core-1.8.29.tgz#15a77f515a96a32685b75c7756f80d3eef9ff881"
-  integrity sha512-L0XSJ7MQ8uGHKGkKS1Dz/4pBp/T2gtPtTp14DuuugGkY9hnbXO9CL19nfdIQXYLB2FXGb10WiOcEAr9A4qCxFg==
+"@factor/core@^1.0.0", "@factor/core@^1.8.30":
+  version "1.8.30"
+  resolved "https://registry.yarnpkg.com/@factor/core/-/core-1.8.30.tgz#e537caca6e1dc4e96049c14ce695cd097bd7ed4c"
+  integrity sha512-FXeGMWdBSUEN33//TFur6uOwDAuW8UfUHebUuEZG2h+1geQeRKd1INP+ZynggkoYtSFtbrVw3ouwSdGaH5iZ3A==
   dependencies:
-    "@factor/api" "^1.8.29"
+    "@factor/api" "^1.8.30"
     "@factor/app" "^1.8.28"
     "@factor/attachment" "^1.8.28"
     "@factor/build" "^1.8.29"
@@ -344,11 +344,11 @@
   integrity sha512-fSUuW7+Kd16JptEqcDTu0yybFEd+VpQhnRZqpVL3iJhJJYM5dteY6rMexq8oMZWg5uXLCVfC4sVbW3xkSzby3Q==
 
 "@factor/theme-zeno@^1.8.29":
-  version "1.8.29"
-  resolved "https://registry.yarnpkg.com/@factor/theme-zeno/-/theme-zeno-1.8.29.tgz#51f58fda88476ef54eb0761ecf44332cff85d437"
-  integrity sha512-nmllH4KRYsURoan2aPtGnjp1ftxfsMq8EGpPrT3+DhuonDGh6kb+qQ974nylT4Hudi/vfueqnF1nhLsQcFNE+w==
+  version "1.8.30"
+  resolved "https://registry.yarnpkg.com/@factor/theme-zeno/-/theme-zeno-1.8.30.tgz#fc2e337cb60561c9d3f05780b08a77b96961199a"
+  integrity sha512-uLsnXvZQ8SkPZoxEMUvVGDr6uJOhD9huF1Gp/1tvfSJHdL7UHBDaIl2QjVX1vQgdCAlYchfX/8Ky58qlJgdzQg==
   dependencies:
-    "@factor/core" "^1.8.29"
+    "@factor/core" "^1.8.30"
     "@factor/plugin-blog" "^1.8.28"
     "@factor/plugin-contact-form" "^1.8.28"
     "@factor/plugin-highlight-code" "^1.8.28"
@@ -479,9 +479,9 @@
     "@types/range-parser" "*"
 
 "@types/express@*", "@types/express@^4.17.2":
-  version "4.17.8"
-  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.8.tgz#3df4293293317e61c60137d273a2e96cd8d5f27a"
-  integrity sha512-wLhcKh3PMlyA2cNAB9sjM1BntnhPMiM0JOBwPBqttjHev2428MLEB4AYVN+d8s2iyCVZac+o41Pflm/ZH5vLXQ==
+  version "4.17.9"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.9.tgz#f5f2df6add703ff28428add52bdec8a1091b0a78"
+  integrity sha512-SDzEIZInC4sivGIFY4Sz1GG6J9UObPwCInYJjko2jzOf/Imx/dlpume6Xxwj1ORL82tBbmN4cPDIDkLbWHk9hw==
   dependencies:
     "@types/body-parser" "*"
     "@types/express-serve-static-core" "*"
@@ -634,9 +634,9 @@
     "@types/node" "*"
 
 "@types/mongoose@^5.5.32":
-  version "5.7.37"
-  resolved "https://registry.yarnpkg.com/@types/mongoose/-/mongoose-5.7.37.tgz#8aa6960a52e551ee49edbb6b0dce587bbb66762b"
-  integrity sha512-PRAZiDZvo3D1Dzs1xtFQBT8YTZIXI9MexkTWyTwIy6C/6jAEGQen2ayg4NjHhjM+5eE4isHq0vbUjzzVWu2qJQ==
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@types/mongoose/-/mongoose-5.10.0.tgz#15e1e22a087416342e1cca5451f917aa1e53ba63"
+  integrity sha512-inJhRgmsYC8JWB3ABUjCreNmMoML/ffu/y8LtTYe7GAW6/B8rVLQU16am73kkceasKX75p41WjU8yquUx/CSAw==
   dependencies:
     "@types/mongodb" "*"
     "@types/node" "*"
@@ -723,9 +723,9 @@
     "@types/express" "*"
 
 "@types/serve-static@*":
-  version "1.13.6"
-  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.6.tgz#866b1b8dec41c36e28c7be40ac725b88be43c5c1"
-  integrity sha512-nuRJmv7jW7VmCVTn+IgYDkkbbDGyIINOeu/G0d74X3lm6E5KfMeQPJhxIt1ayQeQB3cSxvYs1RA/wipYoFB4EA==
+  version "1.13.7"
+  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.7.tgz#e51b51a0becda910f9fd04c718044da69d6c492e"
+  integrity sha512-3diZWucbR+xTmbDlU+FRRxBf+31OhFew7cJXML/zh9NmvSPTNoFecAwHB66BUqFgENJtqMiyl7JAwUE/siqdLw==
   dependencies:
     "@types/mime" "*"
     "@types/node" "*"
@@ -1271,9 +1271,9 @@ autoprefixer@^9.4.5:
     postcss-value-parser "^4.1.0"
 
 aws-sdk@^2.504.0:
-  version "2.788.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.788.0.tgz#020f84975db9623d0a434105991e7074c488693f"
-  integrity sha512-UKc+4MFRezIkgk668mylj7MpVD2dCtiDBppgx05SwYSDGT60bixrKv3nE/YJK+gAv53CWVf7WL6hNv76+TWkTA==
+  version "2.789.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.789.0.tgz#a1b0a8b8b4227a7947c04e8d75239ba27d2deb93"
+  integrity sha512-Jqq+M4N0EgkyS4OPf05UHa7IWUcpuBdnpwMRgBnu4Ju6PxpOTh1UQcmYepVmIN3m6YVpLwFctEYzAMJFM3LT1A==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -1303,9 +1303,9 @@ balanced-match@^1.0.0:
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
 base64-js@^1.0.2, base64-js@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
-  integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.0.tgz#2d03045876d9e2b68a7a0f87d6bd163595e3b6af"
+  integrity sha512-Jrdy04F2EKcNggUDfubMUPNAZg2vMquLQSm8sKLYJvz40ClFL1S8GKyDshGkNsbNNE5Z+fQavzU7nSK1I9JUGA==
 
 base@^0.11.1:
   version "0.11.2"
@@ -4040,7 +4040,7 @@ is-color-stop@^1.0.0:
     rgb-regex "^1.0.1"
     rgba-regex "^1.0.0"
 
-is-core-module@^2.0.0:
+is-core-module@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.1.0.tgz#a4cc031d9b1aca63eecbd18a650e13cb4eeab946"
   integrity sha512-YcV7BgVMRFRua2FqQzKtTDMz8iCuLEyGKjr70q8Zm1yy2qKcurbFEd79PAdHV77oL3NrAaOVQIbMmiHQCHB7ZA==
@@ -6561,11 +6561,11 @@ resolve-url@^0.2.1:
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
 resolve@^1.1.7, resolve@^1.14.2, resolve@^1.2.0:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.18.1.tgz#018fcb2c5b207d2a6424aee361c5a266da8f4130"
-  integrity sha512-lDfCPaMKfOJXjy0dPayzPdF1phampNWr3qFCjAu+rw/qbQmr5jWH5xN2hwh9QKfw9E5v4hwV7A+jrCmL8yjjqA==
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.19.0.tgz#1af5bf630409734a067cae29318aac7fa29a267c"
+  integrity sha512-rArEXAgsBG4UgRGcynxWIWKFvh/XZCcS8UJdHhwy91zwAvCZIbcs+vAbflgBnNjYMs/i/i+/Ux6IZhML1yPvxg==
   dependencies:
-    is-core-module "^2.0.0"
+    is-core-module "^2.1.0"
     path-parse "^1.0.6"
 
 responselike@^1.0.2:
