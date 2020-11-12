@@ -58,13 +58,13 @@ export default {
      * Copy for the call to action on the home page, pricing page, and about page.
      */
     cta: {
-      title: "Get better results with Zeno",
-      content: `Save time and start with a solid foundation, then customize. <i class="fas fa-rocket"></i>`,
+      title: "Experience a new dimension",
+      content: `Save time and start with a solid foundation, know how we can help transform your enterprise with immersive tech.. <i class="fas fa-rocket"></i>`,
       buttons: [
         {
           _item: "contact",
           link: "/contact",
-          text: "Free Consultation",
+          text: "Get Started",
           classes: "btn bg-gray-100 rounded text-purple-500 hover:bg-gray-300",
         },
       ],
@@ -127,25 +127,25 @@ export default {
       id: "solutions",
       items: [
         {
-          _item: "plan",
+          _item: "gears",
 
-          title: "Plan",
-          content: `Lorem ipsum dolor sit amet, labore et dolore adipiscing elit, sed do eiusmod tempor incididunt ut`,
+          title: "Configure",
+          content: `Interactive, configurable and collaborative AR & VR`,
         },
         {
           _item: "build",
 
-          title: "Build",
-          content: `Lorem ipsum dolor sit amet, labore et dolore adipiscing elit, sed do eiusmod tempor incididunt ut`,
+          title: "Support",
+          content: `Works on most devices, browsers and operating systems.`,
         },
         {
           _item: "manage",
 
-          title: "Manage",
-          content: `Lorem ipsum dolor sit amet, labore et dolore adipiscing elit, sed do eiusmod tempor incididunt ut`,
+          title: "No code",
+          content: `There is no need to write code. Any user can pick it right up.`,
         },
         {
-          _item: "gears",
+          _item: "plan",
 
           title: "Automation",
           content: `Lorem ipsum dolor sit amet, labore et dolore adipiscing elit, sed do eiusmod tempor incididunt ut`,
@@ -154,7 +154,7 @@ export default {
           _item: "clouds",
 
           title: "Cloud",
-          content: `Lorem ipsum dolor sit amet, labore et dolore adipiscing elit, sed do eiusmod tempor incididunt ut`,
+          content: `The entire platform is accessible from the browser. No waiting for updates or installation times.`,
         },
         {
           _item: "security",
@@ -165,9 +165,9 @@ export default {
       ],
     },
     section4: {
-      id: "software-as-a-service",
-      pretitle: "Software-as-a-Service",
-      title: "The last software you'll need!",
+      id: "xr-as-a-service",
+      pretitle: "XR-as-a-Service",
+      title: "xr simplified!",
       content: `<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>`,
       buttons: [
         {
@@ -181,20 +181,20 @@ export default {
     },
     section5: {
       id: "software-as-code",
-      pretitle: "Open Source",
-      title: "Product A + Product B = ",
+      pretitle: "HOW IT WORKS",
+      title: "Viewer + Editor = ",
 
       items: [
         {
           _item: "producta",
 
-          alt: "Product A",
+          alt: "viewer",
           content: `Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.`,
         },
         {
           _item: "productb",
 
-          alt: "Product B",
+          alt: "editor",
           content: `Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.`,
         },
       ],
