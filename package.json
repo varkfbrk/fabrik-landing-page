@@ -19,7 +19,9 @@
   "factor": {
     "app": {},
     "admins": [
-      "antony@fabrik.space"
+      "antony@fabrik.space",
+      "gtadhib@gmail.com",
+      "hi@fabrik.space"
     ],
     "load": [
       "app",
