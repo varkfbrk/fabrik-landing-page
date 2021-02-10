@@ -17,7 +17,12 @@
     "@factor/theme-zeno": "^1.8.29"
   },
   "factor": {
-    "app": {},
+    "app": {
+      "name": "Fabrik",
+      "url": "https://fabrik-landing-page.herokuapp.com/",
+      "description": "An XR Company.",
+      "email": "fabrik.antony@gmail.com"
+    },
     "admins": [
       "antony@fabrik.space",
       "gtadhib@gmail.com",
