@@ -7,8 +7,8 @@ export default {
       '<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,600,700&display=swap" rel="stylesheet" />',
   },
   metatags: {
-    defaultTitle: "Zeno",
-    titleTemplate: "%s - Factor JS",
+    defaultTitle: "Fabrik",
+    titleTemplate: "%s - A digital twin company",
   },
 
   /**
